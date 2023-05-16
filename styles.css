@@ -8,6 +8,7 @@ body {
   font-family: CustomFont;
   margin: 20px;
   background-image: url(./images/image-on.png);
+  background-size: cover;
 }
 
 .demo-wrap {
