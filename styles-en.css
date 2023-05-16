@@ -6,7 +6,7 @@
 
 body {
   font-family: CustomFont;
-  margin: 0;
+  margin: 20px;
 }
 
 .demo-wrap {
@@ -66,7 +66,7 @@ textarea {
 
 .footer {
   width: 30%;
-  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 .input-wrapper {

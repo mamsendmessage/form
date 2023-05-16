@@ -28,7 +28,11 @@ function postMessgae(
   };
 
   var xhr = new XMLHttpRequest();
-  xhr.open("POST", "http://localhost:3000/sendMessage/", true);
+  xhr.open(
+    "POST",
+    "https://mam-send-message-2.onrender.com/sendMessage/",
+    true
+  );
   xhr.setRequestHeader("Content-Type", "application/json");
   xhr.send(JSON.stringify(tData));
 }
