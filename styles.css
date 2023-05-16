@@ -9,9 +9,6 @@ body {
   margin: 0;
   padding: 20px;
   margin: 20px;
-  background-image: url(./images/mbz-07.svg), url(./images/elements-05.svg);
-  background-position: right bottom, left top;
-  background-repeat: no-repeat, repeat;
 }
 
 /* page one */

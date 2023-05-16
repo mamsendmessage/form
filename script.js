@@ -49,7 +49,12 @@ function next2() {
   var page2 = document.getElementById("page-2");
   var page3 = document.getElementById("page-3");
   var page4 = document.getElementById("page-4");
+  var textarea = document.getElementById("textarea").value;
 
+  if (!textarea) {
+    alert("please fill a message");
+    return;
+  }
   page1.style.display = "none";
   page2.style.display = "none";
   page3.style.display = "block";
@@ -80,11 +85,6 @@ function next3() {
   var page3 = document.getElementById("page-3");
   var page4 = document.getElementById("page-4");
 
-  page1.style.display = "none";
-  page2.style.display = "none";
-  page3.style.display = "none";
-  page4.style.display = "block";
-
   var name = document.getElementById("name");
   var age = document.getElementById("age");
   var phone = document.getElementById("phone");
@@ -96,6 +96,16 @@ function next3() {
   var emirate = document.getElementById("emirate").value;
   var nationality = document.getElementById("nationality").value;
   var textarea = document.getElementById("textarea").value;
+
+  if (!name || !age || !phone) {
+    alert("please fill all data");
+    return;
+  }
+
+  page1.style.display = "none";
+  page2.style.display = "none";
+  page3.style.display = "none";
+  page4.style.display = "block";
 
   postMessgae(name, nationality, age, emirate, textarea, phone);
 }
