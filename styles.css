@@ -23,8 +23,9 @@ body {
   /* opacity: 20.5; */
   position: absolute;
   left: -7%;
-  top: 59%;
+  top: -12%;
   width: -webkit-fill-available;
+  z-index: -2;
 }
 
 .demo-bg {
@@ -81,6 +82,15 @@ textarea {
   .container {
     max-width: 100%;
   }
+  .footer-bg
+  {
+    margin-top: 14%;
+    /* opacity: 20.5; */
+    position: absolute;
+    left: -7%;
+    top: 65%;
+    width: -webkit-fill-available;
+  } 
   .demo-bg {
     margin-top: 10%;
     opacity: 0.5;
