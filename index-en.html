@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles-en.css" />
+    <link rel="stylesheet" href="flexboxgrid.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="./font-awesome-4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="script-en.js"></script>
+  </head>
+  <body>
+    <a href="./index.html">Arabic</a>
+    <div class="container">
+      <div class="row full-width">
+        <div class="col-mob-12 center-col">
+          <div class="row full-width">
+            <div class="col-mob-12 center-col">
+              <h4 class="word1">We</h4>
+              <h4 class="word2">give</h4>
+              <h4 class="word3">with</h4>
+              <h4 class="word4">love</h4>
+              <h4 class="word5">for</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row full-width">
+        <div class="col-mob-12 center-col">
+          <h1>Mohamed bin Zayed</h1>
+        </div>
+      </div>
+      <div id="page-1">
+        <div class="row full-width">
+          <div class="col-mob-12 center-col">
+            <img src="./images/Sh_MBZ_GrayBG.jpg" alt="" class="circle-image" />
+          </div>
+        </div>
+        <div class="row full-width">
+          <div class="col-mob-12 center-col">
+            <i
+              class="fa fa-arrow-circle-right fa-3x circle-button"
+              aria-hidden="true"
+              onclick="next1()"
+            ></i>
+          </div>
+        </div>
+      </div>
+
+      <div id="page-2" style="display: none">
+        <div class="row full-width">
+          <div class="col-mob-12 start-col">
+            <p class="custom">
+              Express your gratitude and appreciation to His Highness Sheikh
+              Mohamed bin Zayed Al Nahyan - may God protect him - for what he
+              provides for the prosperity of the individual and the community
+            </p>
+          </div>
+        </div>
+        <div class="row full-width">
+          <div class="col-mob-12 start-col">
+            <p>Text</p>
+          </div>
+        </div>
+        <div class="row full-width">
+          <div class="col-mob-12 center-col">
+            <textarea id="textarea" dir="ltr"></textarea>
+          </div>
+        </div>
+        <div class="row full-width">
+          <div class="col-mob-12 center-col">
+            <i
+              class="fa fa-arrow-circle-right fa-3x circle-button"
+              aria-hidden="true"
+              onclick="next2()"
+            ></i>
+          </div>
+        </div>
+      </div>
+
+      <div id="page-3" style="display: none">
+        <div class="row full-width input-wrapper">
+          <div class="col-mob-3 start-col">Name</div>
+          <div class="col-mob-9 start-col">
+            <input type="text" class="full-width input" id="name" />
+          </div>
+        </div>
+
+        <div class="row full-width input-wrapper">
+          <div class="col-mob-3 start-col">Nationality</div>
+          <div class="col-mob-9 start-col">
+            <!-- <input type="text" class="full-width input" id="nationality" /> -->
+            <select
+              class="full-width input"
+              name="nationality"
+              id="nationality"
+            ></select>
+          </div>
+        </div>
+
+        <div class="row full-width input-wrapper">
+          <div class="col-mob-3 start-col">Emirate</div>
+          <div class="col-mob-9 start-col">
+            <select
+              class="full-width input"
+              name="emirate"
+              id="emirate"
+            ></select>
+          </div>
+        </div>
+
+        <div class="row full-width input-wrapper">
+          <div class="col-mob-3 start-col">Age</div>
+          <div class="col-mob-9 start-col">
+            <input type="text" class="full-width input" id="age" />
+          </div>
+        </div>
+
+        <div class="row full-width input-wrapper">
+          <div class="col-mob-3 start-col">Phone Number</div>
+          <div class="col-mob-9 start-col">
+            <input type="text" class="full-width input" id="phone" />
+          </div>
+        </div>
+
+        <div class="row full-width">
+          <div class="col-mob-12 center-col">
+            <i
+              class="fa fa-arrow-circle-right fa-3x circle-button"
+              aria-hidden="true"
+              onclick="next3()"
+            ></i>
+          </div>
+        </div>
+      </div>
+
+      <div id="page-4" style="display: none">
+        <div class="row full-width">
+          <div class="col-mob-12 center-col">
+            <p style="padding: 50px">Thank you for your participation</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row full-width">
+        <div class="col-mob-12 center-col">
+          <img
+            src="./images/footer.png"
+            class="footer"
+            alt="Image description"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

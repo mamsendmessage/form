@@ -1,0 +1,91 @@
+@font-face {
+  font-family: CustomFont;
+  src: url(./font/Careem\ Bold.ttf);
+  src: url(./font/Careem\ Regular.ttf);
+}
+
+body {
+  font-family: CustomFont;
+  margin: 0;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* page one */
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  border: 2px solid;
+  border-radius: 17px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.circle-button {
+  margin-top: 20px;
+}
+
+.circle-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+.footer {
+  width: 30%;
+  margin-top: 30px;
+}
+
+.input-wrapper {
+  padding: 20px;
+}
+
+.input {
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid;
+}
+
+.word1 {
+  transform: translate(-60px, 35px) rotate(-30deg);
+}
+
+.word2 {
+  transform: translate(-40px, 10px) rotate(-20deg);
+}
+
+.word3 {
+  transform: translate(-10px, 0px) rotate(0deg);
+}
+
+.word4 {
+  transform: translate(25px, 10px) rotate(20deg);
+}
+
+.word5 {
+  transform: translate(50px, 40px) rotate(30deg);
+}
+
+h1,
+h4,
+.custom {
+  color: #927033;
+}
