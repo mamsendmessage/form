@@ -7,7 +7,9 @@
 body {
   font-family: CustomFont;
   margin: 20px;
-  background-image: url(./images/image-on.png);
+  
+  background-image: url(./images/new/head.png);
+  background-repeat: repeat;
   background-size: cover;
 }
 
@@ -20,10 +22,15 @@ body {
   margin-top: 10%;
   opacity: 0.5;
   position: absolute;
-  left: 0;
-  top: 0;
-  width: 80%;
-  height: 50%;
+  width: -webkit-fill-available;
+  /* left: 0;
+  top: 0; */
+  /* width: 80%;
+  height: 50%; */
+ 
+    left: 20%;
+    top: -31%;
+    z-index: -1;
 }
 
 .demo-content {
@@ -60,20 +67,53 @@ textarea {
   border-radius: 50%;
   margin: 10px;
 }
+.footer-bg
+{
+  /* background-image: url(./images/new/image9.png); */
+  margin-top: 14%;
+  /* opacity: 20.5; */
+  position: absolute;
+  left: -7%;
+  top: -12%;
+  width: -webkit-fill-available;
+  z-index: -2;
+}
+/* .demo-bg {
+  margin-top: 10%;
+opacity: 0.5;
+position: absolute;
+width: -webkit-fill-available;
 
+
+  left: 20%;
+  top: -25%;
+} */
 @media only screen and (max-width: 600px) {
   .container {
     max-width: 100%;
   }
-  .demo-bg {
-    margin-top: 10%;
-    opacity: 0.5;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 80%;
-    height: 80%;
-  }
+   .footer-bg
+{
+  margin-top: 14%;
+  /* opacity: 20.5; */
+  position: absolute;
+  left: -7%;
+  top: 65%;
+  width: -webkit-fill-available;
+} 
+  /* .demo-bg { */
+    /* margin-top: 10%;
+  opacity: 0.5;
+  position: absolute; */
+  /* width: -webkit-fill-available; */
+  /* left: 0;
+  top: 0; */
+  /* width: 80%;
+  height: 50%; */
+ 
+    /* left: 20%;
+    top: -25%; */
+  /* }  */
   .circle-image {
     width: 150px;
     height: 150px;
