@@ -4,7 +4,10 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="flexboxgrid.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    />
     <link
       href="./font-awesome-4.7.0/css/font-awesome.min.css"
       rel="stylesheet"
@@ -12,139 +15,148 @@
     <script src="script.js"></script>
   </head>
   <body>
-    <div class="container">
-      <a href="./index-en.html">English</a>
-      <div class="row full-width">
-        <div class="col-mob-12 center-col">
-          <h4 class="word1">نعطي</h4>
-          <h4 class="word2">بحب</h4>
-          <h4 class="word3">من</h4>
-          <h4 class="word4">أجل</h4>
-        </div>
-      </div>
-      <br />
-      <div class="row full-width">
-        <div class="col-mob-12 center-col">
-          <h1>محمد بن زايد</h1>
-        </div>
-      </div>
-      <div id="page-1">
-        <div class="row full-width">
-          <div class="col-mob-12 center-col">
-            <img src="./images/Sh_MBZ_GrayBG.jpg" alt="" class="circle-image" />
+    <div class="demo-wrap">
+      <img class="demo-bg" src="./images/image_.png" alt="" />
+      <div class="demo-content">
+        <div class="container">
+          <a href="./index-en.html">English</a>
+          <div class="row full-width">
+            <div class="col-mob-12 center-col">
+              <h4 class="word1">نعطي</h4>
+              <h4 class="word2">بحب</h4>
+              <h4 class="word3">من</h4>
+              <h4 class="word4">أجل</h4>
+            </div>
           </div>
-        </div>
-        <div class="row full-width">
-          <div class="col-mob-12 center-col">
-            <i
-              class="fa fa-arrow-circle-left fa-3x circle-button"
-              aria-hidden="true"
-              onclick="next1()"
-            ></i>
+          <br />
+          <div class="row full-width">
+            <div class="col-mob-12 center-col">
+              <h1>محمد بن زايد</h1>
+            </div>
           </div>
-        </div>
-      </div>
+          <div id="page-1">
+            <div class="row full-width">
+              <div class="col-mob-12 center-col">
+                <img
+                  src="./images/Sh_MBZ_GrayBG.jpg"
+                  alt=""
+                  class="circle-image"
+                />
+              </div>
+            </div>
+            <div class="row full-width">
+              <div class="col-mob-12 center-col">
+                <i
+                  class="fa fa-arrow-circle-left fa-3x circle-button"
+                  aria-hidden="true"
+                  onclick="next1()"
+                ></i>
+              </div>
+            </div>
+          </div>
 
-      <div id="page-2" style="display: none">
-        <div class="row full-width">
-          <div class="col-mob-12 end-col">
-            <p class="custom">
-              عبروا بكلمة شكر وامتنان لصاحب السمو الشيخ محمد بن زايد آل نهيان –
-              حفظه الله – لما يقدمه لرفعة الفرد والمجتمع
-            </p>
+          <div id="page-2" style="display: none">
+            <div class="row full-width">
+              <div class="col-mob-12 end-col">
+                <p class="custom">
+                  عبروا بكلمة شكر وامتنان لصاحب السمو الشيخ محمد بن زايد آل
+                  نهيان – حفظه الله – لما يقدمه لرفعة الفرد والمجتمع
+                </p>
+              </div>
+            </div>
+            <div class="row full-width">
+              <div class="col-mob-12 end-col">
+                <p>الكلمة</p>
+              </div>
+            </div>
+            <div class="row full-width">
+              <div class="col-mob-12 center-col">
+                <textarea id="textarea" dir="rtl"></textarea>
+              </div>
+            </div>
+            <div class="row full-width">
+              <div class="col-mob-12 center-col">
+                <i
+                  class="fa fa-arrow-circle-left fa-3x circle-button"
+                  aria-hidden="true"
+                  onclick="next2()"
+                ></i>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="row full-width">
-          <div class="col-mob-12 end-col">
-            <p>الكلمة</p>
-          </div>
-        </div>
-        <div class="row full-width">
-          <div class="col-mob-12 center-col">
-            <textarea id="textarea" dir="rtl"></textarea>
-          </div>
-        </div>
-        <div class="row full-width">
-          <div class="col-mob-12 center-col">
-            <i
-              class="fa fa-arrow-circle-left fa-3x circle-button"
-              aria-hidden="true"
-              onclick="next2()"
-            ></i>
-          </div>
-        </div>
-      </div>
 
-      <div id="page-3" style="display: none">
-        <div class="row full-width input-wrapper">
-          <div class="col-mob-9 end-col">
-            <input type="text" class="full-width input" id="name" />
-          </div>
-          <div class="col-mob-3 end-col">الاسم</div>
-        </div>
+          <div id="page-3" style="display: none">
+            <div class="row full-width input-wrapper">
+              <div class="col-mob-9 end-col">
+                <input type="text" class="full-width input" id="name" />
+              </div>
+              <div class="col-mob-3 end-col">الاسم</div>
+            </div>
 
-        <div class="row full-width input-wrapper">
-          <div class="col-mob-9 end-col">
-            <select
-              class="full-width input"
-              name="nationality"
-              id="nationality"
-            ></select>
-          </div>
-          <div class="col-mob-3 end-col">الجنسية</div>
-        </div>
+            <div class="row full-width input-wrapper">
+              <div class="col-mob-9 end-col">
+                <select
+                  class="full-width input"
+                  name="nationality"
+                  id="nationality"
+                ></select>
+              </div>
+              <div class="col-mob-3 end-col">الجنسية</div>
+            </div>
 
-        <div class="row full-width input-wrapper">
-          <div class="col-mob-9 end-col">
-            <select
-              class="full-width input"
-              name="emirate"
-              id="emirate"
-            ></select>
-          </div>
-          <div class="col-mob-3 end-col">الامارة</div>
-        </div>
+            <div class="row full-width input-wrapper">
+              <div class="col-mob-9 end-col">
+                <select
+                  class="full-width input"
+                  name="emirate"
+                  id="emirate"
+                ></select>
+              </div>
+              <div class="col-mob-3 end-col">الامارة</div>
+            </div>
 
-        <div class="row full-width input-wrapper">
-          <div class="col-mob-9 end-col">
-            <input type="text" class="full-width input" id="age" />
-          </div>
-          <div class="col-mob-3 end-col">العمر</div>
-        </div>
+            <div class="row full-width input-wrapper">
+              <div class="col-mob-9 end-col">
+                <input type="text" class="full-width input" id="age" />
+              </div>
+              <div class="col-mob-3 end-col">العمر</div>
+            </div>
 
-        <div class="row full-width input-wrapper">
-          <div class="col-mob-9 end-col">
-            <input type="text" class="full-width input" id="phone" />
-          </div>
-          <div class="col-mob-3 end-col">رقم الهاتف</div>
-        </div>
+            <div class="row full-width input-wrapper">
+              <div class="col-mob-9 end-col">
+                <input type="text" class="full-width input" id="phone" />
+              </div>
+              <div class="col-mob-3 end-col">رقم الهاتف</div>
+            </div>
 
-        <div class="row full-width">
-          <div class="col-mob-12 center-col">
-            <i
-              class="fa fa-arrow-circle-left fa-3x circle-button"
-              aria-hidden="true"
-              onclick="next3()"
-            ></i>
+            <div class="row full-width">
+              <div class="col-mob-12 center-col">
+                <i
+                  class="fa fa-arrow-circle-left fa-3x circle-button"
+                  aria-hidden="true"
+                  onclick="next3()"
+                ></i>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div id="page-4" style="display: none">
-        <div class="row full-width">
-          <div class="col-mob-12 center-col">
-            <p style="padding: 50px">شكراً على مشاركتكم</p>
+          <div id="page-4" style="display: none">
+            <div class="row full-width">
+              <div class="col-mob-12 center-col">
+                <p style="padding: 50px">شكراً على مشاركتكم</p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="row full-width">
-        <div class="col-mob-12 center-col">
-          <img
-            src="./images/footer.png"
-            class="footer"
-            alt="Image description"
-          />
+          <div class="row full-width">
+            <div class="col-mob-12 center-col">
+              <img
+                src="./images/footer.png"
+                class="footer"
+                alt="Image description"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>

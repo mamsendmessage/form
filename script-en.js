@@ -26,7 +26,9 @@ function postMessgae(
   };
 
   var xhr = new XMLHttpRequest();
-  xhr.open("POST", "http://94.127.214.136:5343/MAM/sendMessage/", true);
+
+  xhr.open("POST", "http://localhost:3000/sendMessage/", true);
+
   xhr.setRequestHeader("Content-Type", "application/json");
   xhr.send(JSON.stringify(tData));
   // Send Data
